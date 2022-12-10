@@ -2,6 +2,17 @@ body {
     background-color: #f5d9df;
     font-family: 'Nunito', sans-serif;
 }
+.pinky h2 {
+    color: #ea1c2c;
+    font-weight: 200;
+    font-size: 2.5rem;
+}
+
+.pinky p {
+    color: #f398b8;
+    font-size: 1.125rem;
+    line-height: 2;
+}
 
 #mainNavbar {
     font-size: 1.5rem;
@@ -27,4 +38,9 @@ body {
 
 #headingGroup span{
     color:#ea1c2c;
+}
+
+.scrolled {
+    background-color: rgb(222, 192, 222);
+    transition: background-color .7s ease-in-out;
 }
